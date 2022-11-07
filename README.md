@@ -36,7 +36,7 @@ This project uses Yarn as package-manager
 
 ```yarn install pkfit```
 
-```cd pkfit```
+```cd passport-react-starter```
 
 ### Run Locally  ![run (2)](https://user-images.githubusercontent.com/43764448/192065513-0fa22318-c75e-4d59-a760-0af1c4baf5a7.png)
 
@@ -46,7 +46,7 @@ Clone the project
 
 Go to the project directory
 
-```cd pkfit```
+```cd passport-react-starter```
 
 Install dependencies
 
