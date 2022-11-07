@@ -3,7 +3,9 @@
 
 ## About the Project   ![information](https://user-images.githubusercontent.com/43764448/192064555-7b4b82b5-8618-49c5-900f-fca9c5bc3a8a.png) 
 
-A React project starter code that uses express and passport with its local strategy to get your project up and running and start registering and logging in your users.
+This is a starter project that provides an example of how to use React with Express and incorporate an authentication system that uses Passport with it Local Strategy
+
+This project exists to make it easier to get started a creating production app in React. You are invited to use it as a reference or to copy it and use it as a base for your own projects. 
 
 
 ### Tech Stack  ![settings](https://user-images.githubusercontent.com/43764448/192064589-bb41a8b7-9220-48ba-b7ec-d95f90fde13d.png)
@@ -22,7 +24,7 @@ A React project starter code that uses express and passport with its local strat
 
 When you configure the .ENV file you can configure your options for your database and sessions secret key.
 There are fields in database.js and server.js that are commented out that require your own database and secret key.
-
+Passport Local is configured to an email authentification, If you would like to use a username please convert email fields to username
 
 ## Getting started  ![toolbox](https://user-images.githubusercontent.com/43764448/192064727-6b5094a2-6650-4be4-9f1c-1e3e46ee030f.png)
 
