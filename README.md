@@ -24,7 +24,7 @@ This project exists to make it easier to get started a creating production app i
 
 When you configure the .ENV file you can configure your options for your database and sessions secret key.
 There are fields in database.js and server.js that are commented out that require your own database and secret key.
-Passport Local is configured to an email authentification, If you would like to use a username please convert email fields to username
+In this project, Passport Local is configured to an email authentification. If you would like to use a username please convert email fields to username
 
 ## Getting started  ![toolbox](https://user-images.githubusercontent.com/43764448/192064727-6b5094a2-6650-4be4-9f1c-1e3e46ee030f.png)
 
