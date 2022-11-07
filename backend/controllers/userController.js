@@ -6,17 +6,17 @@ const User = require("../models/userModel");
 //@route Post /register
 //@access Public
 const registerUser = (req, res) => {
-  const { email, password } = req.body;
+  const { email, password } = req.body; //change to username if you want to use username instead of email
   const { hash, salt } = passwordUtil.genPassword(password);
 
-  User.findOne({ email: email }, (err, user) => {
+  User.findOne({ email: email }, (err, user) => { //change to username if you want to use username instead of email
     if (err) {
       console.log(err);
     } else if (user) {
       res.status(409);
     } else {
       const newUser = new User({
-        email: email,
+        email: email, //change to username if you want to use username instead of email
         hash: hash,
         salt: salt,
       });
