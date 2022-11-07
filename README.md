@@ -18,7 +18,8 @@ This project exists to make it easier to get started a creating production app i
 ### Features  ![stars](https://user-images.githubusercontent.com/43764448/192064659-fb6a9c1c-e2d2-473c-ad84-e0089ff4c45c.png)
 
 - clone and install ready code ready for use ASAP
-- custom fields with options
+- Custom fields
+- Nodemon to watch and run server
 
 ### Configuring
 
@@ -53,3 +54,8 @@ Go to the project directory
 Install dependencies
 
 ```yarn install```
+
+Run project
+This project uses nodemon as a dependency to watch and start the server
+
+```yarn devStart```
