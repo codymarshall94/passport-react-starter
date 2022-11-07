@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Passport React Starter ![run](https://user-images.githubusercontent.com/43764448/192065217-3789790c-b8a5-4dca-a680-635cf0cd7dac.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About the Project   ![information](https://user-images.githubusercontent.com/43764448/192064555-7b4b82b5-8618-49c5-900f-fca9c5bc3a8a.png) 
 
-In the project directory, you can run:
+A React project starter code that uses express and passport with its local strategy to get your project up and running and start registering and logging in your users.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack  ![settings](https://user-images.githubusercontent.com/43764448/192064589-bb41a8b7-9220-48ba-b7ec-d95f90fde13d.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Passport Local Strategy
+- Mongoose
+- Express & Express Session
 
-### `yarn test`
+### Features  ![stars](https://user-images.githubusercontent.com/43764448/192064659-fb6a9c1c-e2d2-473c-ad84-e0089ff4c45c.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- clone and install ready code ready for use ASAP
+- custom fields with options
 
-### `yarn build`
+### Configuring
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you configure the .ENV file you can configure your options for your database and sessions secret key.
+There are fields in database.js and server.js that are commented out that require your own database and secret key.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting started  ![toolbox](https://user-images.githubusercontent.com/43764448/192064727-6b5094a2-6650-4be4-9f1c-1e3e46ee030f.png)
 
-### `yarn eject`
+### Prerequisites  ![danger](https://user-images.githubusercontent.com/43764448/192064860-706b96c6-b55d-487e-9ab7-081b448dac0a.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses Yarn as package-manager
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```npm install --global yarn```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation  ![settings (1)](https://user-images.githubusercontent.com/43764448/192064827-5517c09b-b548-4596-99bc-4bbe6a3f6a9d.png) 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```yarn install pkfit```
 
-## Learn More
+```cd pkfit```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run Locally  ![run (2)](https://user-images.githubusercontent.com/43764448/192065513-0fa22318-c75e-4d59-a760-0af1c4baf5a7.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```https://github.com/codymarshall94/pkfit.git```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to the project directory
 
-### Analyzing the Bundle Size
+```cd pkfit```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```yarn install```
